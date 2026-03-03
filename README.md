@@ -26,10 +26,10 @@ A Claude skill that creates PowerPoint presentations from your existing `.pptx` 
 ## Installation
 
 ### Claude.ai (Personal)
-Go to **Settings → Capabilities → Skills**, upload `template-pptx.skill`, and toggle it on.
+Copy `pptx-template-skill.md` to `~/.claude/skills/` and toggle it on in **Settings → Capabilities → Skills**.
 
 ### Claude.ai (Projects)
-Add the `.skill` file (or the raw `SKILL.md`) to your Project's knowledge base alongside your `.pptx` template.
+Add `pptx-template-skill.md` to your Project's knowledge base alongside your `.pptx` template.
 
 ## Design Philosophy
 
@@ -48,7 +48,4 @@ Key principles:
 
 ## Works With
 
-This is a general-purpose execution skill. It handles the *how* of building from a template. Pair it with content skills that handle the *what*:
-
-- **PE IC Deck** — defines slide-by-slide content for investment committee presentations
-- Any future content skill that specifies what goes on each slide
+This is a general-purpose execution skill. It handles the *how* of building from a template. Pair it with content skills that handle the *what* — any skill that specifies what goes on each slide.
