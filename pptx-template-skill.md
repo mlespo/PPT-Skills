@@ -21,8 +21,6 @@ The user must upload a `.pptx` template. If they haven't, ask for one.
 
 ### Step 1: Study the Template
 
-Read the pptx SKILL.md and editing.md first, then:
-
 ```bash
 python scripts/thumbnail.py template.pptx
 python -m markitdown template.pptx
